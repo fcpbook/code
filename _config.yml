@@ -1,0 +1,46 @@
+title: "Functional and Concurrent Programming"
+tagline: "FCP book resources"
+description: >-
+  This is the resources website for Pearson's book
+  <em>Functional and Concurrent Programming: Core Concepts and Features.</em>
+url: "https://fcpbook.org"
+baseurl: ""
+
+author:
+  name: "Michel Charpentier"
+  url: "https://www.informit.com/authors/bio/a03270bc-766e-4fc5-b347-1935c5a72f34"
+  email: "author@FCPbook.org <Michel Charpentier>"
+
+show_downloads: true
+cover: /assets/img/cover.jpeg
+github:
+  zip_url: "https://github.com/fcpbook/resources/zipball/main"
+  tar_url: "https://github.com/fcpbook/resources/tarball/main"
+
+informit: "https://www.informit.com/store/functional-and-concurrent-programming-core-concepts-9780137466573"
+twitter_username: pearson
+github_username:  fcpbook
+
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
