@@ -2,6 +2,7 @@ package preface
 
 import scala.util.Random
 
+/*
 object RandShift1:
    def randShift(nums: List[Int], rand: Random): List[Int] = {
       val shiftedNums = List.newBuilder[Int]
@@ -13,6 +14,7 @@ object RandShift1:
       }
       shiftedNums.result()
    }
+*/
 
 object RandShift2:
    def randShift(nums: List[Int], rand: Random): List[Int] =

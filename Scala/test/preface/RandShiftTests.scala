@@ -9,7 +9,7 @@ class RandShiftTests extends AnyFunSuite:
 
    test("RandShift") {
       for f <- Seq(
-           RandShift1.randShift,
+           // RandShift1.randShift,
            RandShift2.randShift,
            RandShift3.randShift,
            RandShift4.randShift,

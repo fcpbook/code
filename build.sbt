@@ -17,6 +17,9 @@ ThisBuild / scalacOptions ++= Seq(
   "-deprecation", // Emit warning and location for usages of deprecated APIs.
   "-feature",     // Emit warning for usages of features that should be imported explicitly.
   "-unchecked",   // Enable detailed unchecked (erasure) warnings.
+  "-new-syntax",    // Require `then` and `do` in control expressions.
+  "-source:future", // source version.
+  "-language:noAutoTupling", // Disable auto-tupling
 )
 
 ThisBuild / javacOptions ++= Seq("--source", "17", "-deprecation", "-Xlint")
