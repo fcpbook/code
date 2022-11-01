@@ -33,11 +33,11 @@ It is laid out as follows:
 The `Scala` and `Java` source repositories are setup as a single `sbt` project, which should make it easy to load and compile the code using `sbt` or any IDE that is `sbt` aware, like JetBrains' `IntelliJ`.
 The project specifies the following dependencies:
 
-  - `tiny-scala-utils`: This is my own library, used mostly to implement tests and mock objects, though it also occasionally appear in the main code (e.g., to display time and thread information in demos).
-  - `scala-parallel-collections`: A semi-standard Scala library that implements collections with parallel processing (see section 21.4).
-  - `dotty-cps-async`: An experimental "_async/await_" implementation in Scala (see section 27.4).
-  - `akka-actor-typed`: The Akka actors framework (see section 27.5).
-  - `slf4j-simple`: The logging framework used by Akka.
-  - `reactor-core`: The Reactor project, a popular Java implementation of _reactive streams_ (see section 27.6).
+  - [`tiny-scala-utils`](https://charpov.github.io/TinyScalaUtils/docs/index.html): This is my own library, used mostly to implement tests and mock objects, though it also occasionally appear in the main code (e.g., to display time and thread information in demos).
+  - [`scala-parallel-collections`](https://github.com/scala/scala-parallel-collections/): A semi-standard Scala library that implements collections with parallel processing (see section 21.4).
+  - [`dotty-cps-async`](https://github.com/rssh/dotty-cps-async/): An experimental "_async/await_" implementation in Scala (see section 27.4).
+  - [`akka-actor-typed`](https://doc.akka.io/docs/akka/2.7.0/typed/index.html): The Akka actors framework (see section 27.5).
+  - [`slf4j-simple`](https://www.slf4j.org): The logging framework used by Akka.
+  - [`reactor-core`](https://projectreactor.io): The Reactor project, a popular Java implementation of _reactive streams_ (see section 27.6).
   
 The last four dependencies are used only in Chapter 27.
