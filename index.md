@@ -9,7 +9,7 @@ title: Resources
 
 **Functional and Concurrent Programming: Core Concepts and Features**, Addison-Wesley Professional, 1st edition, ISBN-13: 978-0-13-746657-3.
 
-The book can be purchased from the [publisher]({{ site.informit }}), or in bookstores such as [Amazon](https://www.amazon.com/dp/0137466544/) or [Barnes & Noble](http://www.barnesandnoble.com/s/9780137466542/).
+The book can be purchased from the [publisher]({{ site.informit }}), or in bookstores such as [Amazon](https://www.amazon.com/dp/0137466544/), [Goodreads](https://www.goodreads.com/book/show/59088413), or [Barnes & Noble](http://www.barnesandnoble.com/s/9780137466542/).
 
 ## Code illustrations
 
