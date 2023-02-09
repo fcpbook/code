@@ -11,7 +11,7 @@ val Reactor            = "io.projectreactor"       % "reactor-core"             
 val TinyScalaUtils     = "com.github.charpov"     %% "tiny-scala-utils"           % "1.0.0"
 val TinyScalaUtilsTest = "com.github.charpov"     %% "tiny-scala-utils-test"      % "1.0.0" % Test
 
-ThisBuild / scalaVersion := "3.2.0"
+ThisBuild / scalaVersion := "3.2.2"
 
 ThisBuild / scalacOptions ++= Seq(
   "-deprecation", // Emit warning and location for usages of deprecated APIs.
@@ -25,7 +25,7 @@ ThisBuild / scalacOptions ++= Seq(
 ThisBuild / javacOptions ++= Seq("--source", "17", "-deprecation", "-Xlint")
 
 lazy val fcp = (project in file(".")).settings(
-  version := "1.1.0",
+  version := "1.1.1",
   Compile / unmanagedSourceDirectories := Seq(
     baseDirectory.value / "Scala" / "main",
     baseDirectory.value / "Java" / "main"
