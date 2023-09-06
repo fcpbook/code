@@ -5,6 +5,8 @@ title: Errata
 
 # Errata
 
+  - **p. xxxiv:** In the third paragraph, "has been to used to" should be "has been used to".
+
   - **p. 219:** The `ListADT` class should either define _monomorphic_ lists:
     ```scala
     abstract class ListADT[A]:
