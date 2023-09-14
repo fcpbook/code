@@ -11,6 +11,8 @@ title: Resources
 
 The book can be purchased from the [publisher]({{ site.informit }}), or in bookstores such as [Amazon](https://www.amazon.com/dp/0137466544/), [Goodreads](https://www.goodreads.com/book/show/59088413), or [Barnes & Noble](http://www.barnesandnoble.com/s/9780137466542/).
 
+You can also browse the [preface and table of contents](https://www.informit.com/content/images/9780137466542/samplepages/9780137466542_Sample.pdf).
+
 ## Sample chapters
 
 [Chapters 9 and 26](https://www.informit.com/content/images/9780137466542/samplepages/9780137466542_Sample.pdf) can be downloaded as a sample.
