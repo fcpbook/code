@@ -1,12 +1,7 @@
 package appendix
 
 import chap25.ServerChecks
-import mocks.Chap25.Page
-import mocks.Chap26.PageException
 import org.scalatest.funsuite.AnyFunSuite
-import tinyscalautils.threads.withUnlimitedThreadsAndWait
-
-import scala.concurrent.Future
 
 class FunctionalConcurrentTests extends AnyFunSuite with ServerChecks:
    import FunctionalConcurrentJ.*

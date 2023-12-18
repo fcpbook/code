@@ -2,7 +2,6 @@ package chap19
 
 import chap19.Section_2.*
 import org.scalatest.funsuite.AnyFunSuite
-import tinyscalautils.control.times
 import tinyscalautils.test.threads.syncForkJoin
 import tinyscalautils.text.StringLetters.X
 import tinyscalautils.threads.Executors.global

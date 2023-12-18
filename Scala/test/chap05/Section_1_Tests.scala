@@ -2,7 +2,6 @@ package chap05
 
 import chap03.VerbosityTests
 import chap05.Section_1.*
-import org.scalatest.funsuite.AnyFunSuite
 
 import java.io.IOException
 

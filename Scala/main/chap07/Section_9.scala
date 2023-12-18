@@ -1,7 +1,6 @@
 package chap07
 
-import chap05.Section_4.{ head, tail }
-import chap07.Section_5.append
+import chap05.Section_4.{head, tail}
 import chap07.Section_7.reverse
 
 import scala.annotation.tailrec

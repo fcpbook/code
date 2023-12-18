@@ -4,8 +4,7 @@ import tinyscalautils.util.{ FastRandom, nextInt }
 
 import java.io.{ StringWriter, Writer }
 import java.nio.file.{ Files, Path }
-import java.util.concurrent.{ ConcurrentLinkedQueue, CyclicBarrier }
-import scala.concurrent.ExecutionContextExecutorService
+import java.util.concurrent.ConcurrentLinkedQueue
 import scala.jdk.CollectionConverters.IterableHasAsJava
 
 object Chap23:

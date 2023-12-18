@@ -4,7 +4,7 @@ import tinyscalautils.threads.Executors.global as exec
 
 object Section_4:
    def demo1(assert: Boolean => Unit): Unit =
-      import java.util.concurrent.{ CompletableFuture, ExecutorService, Future }
+      import java.util.concurrent.{ CompletableFuture, Future }
 
       def makeStrings(n: Int, str: String): List[String] = List.fill(n)(str)
 

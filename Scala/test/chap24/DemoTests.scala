@@ -2,8 +2,7 @@ package chap24
 
 import org.scalactic.Tolerance
 import org.scalatest.funsuite.AnyFunSuite
-import tinyscalautils.text.{ PrintingMode, threadMode }
-import tinyscalautils.threads.newThread
+import tinyscalautils.text.PrintingMode
 import tinyscalautils.timing.timeIt
 import util.invokeAndWait
 

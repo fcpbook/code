@@ -1,6 +1,8 @@
 /*
 package chap14;
 
+import chap14.javatrampoline.Computation;
+
 import static chap14.javatrampoline.Computation.call;
 import static chap14.javatrampoline.Computation.done;
 

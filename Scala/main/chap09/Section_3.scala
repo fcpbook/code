@@ -1,10 +1,9 @@
 package chap09
 
 import chap09.Section_1.temps
-import mocks.Chap09.{ Project, projects }
+import mocks.Chap09.{Project, projects}
 
 import java.time.LocalDate
-import java.util.Date
 
 object Section_3:
    def demo1: Int => Int = (x: Int) => x + 1
@@ -30,6 +29,7 @@ object Section_3:
    def demo7: Option[(LocalDate, Int)] =
       datedTemps.find((date, temp) => date.getMonthValue <= 3 && temp > 90)
 
+   //noinspection ScalaWeakerAccess
    val optionalDatedTemps: List[(Option[LocalDate], Int)] = mocks.Chap09.optionalDatedTemps
 
    def demo8: Option[(Option[LocalDate], Int)] = optionalDatedTemps.find {

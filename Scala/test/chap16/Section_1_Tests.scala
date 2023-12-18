@@ -3,7 +3,6 @@ package chap16
 import chap16.Section_1.*
 import org.scalatest.funsuite.AnyFunSuite
 import tinyscalautils.test.text.PrintAccumulator
-import tinyscalautils.text.PrintingMode
 import tinyscalautils.threads.{ withThreadsAndWait, withUnlimitedThreadsAndWait }
 import tinyscalautils.timing.timeOf
 import tinyscalautils.util.average

@@ -25,7 +25,7 @@ record Call<A>(Supplier<Computation<A>> thunk) implements Computation<A> {
   public A result() {
     Computation<A> calc = this;
     while (calc instanceof Call<A> call)
-      calc = call.thunk().get();
+      calc = call.thunk().get(); // TODO: could use thunk instead of thunk()
     return calc.result();
   }
 }

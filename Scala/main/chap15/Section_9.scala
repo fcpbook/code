@@ -1,7 +1,6 @@
 package chap15
 
 import chap15.Section_6.{ Magazine, Publication }
-import mocks.Chap15.{ orderedBook1, orderedBook2 }
 
 import scala.collection.SortedSet
 import scala.collection.mutable.Set
@@ -42,5 +41,6 @@ object Section_9:
    def runInParallel[A](tasks: List[() => A]): List[A] = tasks.par.map(_.apply()).toList
 
    object Demo:
+      // noinspection ScalaWeakerAccess
       val bookPublishers: List[BookPublisher] = mocks.Chap15.publishers
       val pubs: List[Publication]             = runInParallel(bookPublishers) // OK

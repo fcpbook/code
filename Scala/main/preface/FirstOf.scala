@@ -2,7 +2,6 @@ package preface
 
 import mocks.Preface.timeout
 
-import scala.concurrent.duration.Duration
 import scala.concurrent.{ Await, ExecutionContext, Future }
 
 object FirstOf:

@@ -4,7 +4,6 @@ import chap18.Section_1.*
 import org.scalatest.concurrent.{ Signaler, ThreadSignaler, TimeLimits }
 import org.scalatest.funsuite.AnyFunSuite
 import tinyscalautils.test.text.PrintAccumulator
-import tinyscalautils.text.threadMode
 import util.invokeAndWait
 
 import scala.annotation.tailrec

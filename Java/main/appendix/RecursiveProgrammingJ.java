@@ -1,6 +1,7 @@
+/*
 package appendix;
 
-class RecursiveProgramming {
+class RecursiveProgrammingJ {
   sealed public interface BinTree {
     BinTree Empty = new Empty(); // empty tree singleton
   }
@@ -10,7 +11,8 @@ class RecursiveProgramming {
   static int size(BinTree tree) {
     return switch (tree) {
       case Empty() -> 0;
-      case Node(int __,BinTree left,BinTree right) -> 1 + size(left) + size(right);
+      case Node(int __, BinTree left, BinTree right) -> 1 + size(left) + size(right);
     };
   }
 }
+*/

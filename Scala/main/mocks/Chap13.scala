@@ -3,10 +3,8 @@ package mocks
 import chap13.Section_1
 import tinyscalautils.util.FastRandom
 
-import java.io.IOException
 import java.nio.file.{ NoSuchFileException, Path }
 import java.text.ParseException
-import scala.concurrent.Future
 import scala.util.{ Failure, Success, Try }
 
 object Chap13:

@@ -1,7 +1,6 @@
 package mocks
 
 import tinyscalautils.assertions.requireState
-import tinyscalautils.text.StringLetters.{ L, M, R }
 
 import java.net.InetAddress
 import java.nio.file.Path

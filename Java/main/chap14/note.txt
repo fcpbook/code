@@ -1,3 +1,2 @@
-These Java sources are commented out because Scala 3 doesn't handle Java records yet
-(https://github.com/lampepfl/dotty/issues/14846).
-They can be compiled and tested inside the MoreJava folder.
+These Java sources are commented out because Scala 3 doesn't handle generic Java records yet
+(https://github.com/lampepfl/dotty/issues/18639).

@@ -1,7 +1,7 @@
 package chap15
 
 import chap15.Section_6.{ Book, Magazine, Publication }
-import mocks.Chap15.{ Noble, magazine, book1 as book }
+import mocks.Chap15.Noble
 
 import java.util.logging.Logger
 import scala.annotation.unused
@@ -10,6 +10,7 @@ import scala.language.reflectiveCalls
 import scala.reflect.Selectable.reflectiveSelectable
 
 //noinspection TypeAnnotation
+//noinspection ScalaWeakerAccess
 object Section_10:
    case class Report(title: String, number: Int) // does not refer to Publication
 

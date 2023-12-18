@@ -2,7 +2,7 @@ package chap15
 
 import chap15.Section_6.{ Book, Magazine, Publication }
 import chap15.Section_8.*
-import mocks.Chap15.{ book1, book2, magazine }
+import mocks.Chap15.{ book1, magazine }
 import org.scalatest.funsuite.AnyFunSuite
 import tinyscalautils.text.printout
 
@@ -26,7 +26,6 @@ class Section_8_Tests extends AnyFunSuite:
    }
 
    test("Scala non-variance") {
-      import ArrayNonVariant.*
       assertTypeError("printTitles(books)")
    }
 

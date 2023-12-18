@@ -1,7 +1,6 @@
 package chap22
 
 import chap22.Section_3.*
-import chap22.Section_5
 import org.scalatest.funsuite.AnyFunSuite
 import tinyscalautils.control.times
 import tinyscalautils.lang.unit

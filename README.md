@@ -12,15 +12,9 @@ It is laid out as follows:
     Note that mock objects and unit tests tend to use dirty, uncommented code that is fairly unreadable.
     You are advised to stay away from them.
     
-  - `Java` contains almost all the Java code used in the book (see `MoreJava` for exceptions).
+  - `Java` contains all the Java code used in the book.
     This code is used in a joint `sbt` project with `Scala` code and depends on mock objects written in Scala.
     
-  - `MoreJava` contains additional Java code that is not part of the `sbt` project:
-    
-      - Code from Chapter 14 that uses Java records.
-        Due to a bug, Java records are not currently supported in Scala 3 (https://github.com/lampepfl/dotty/issues/14846).
-      - Code from the appendix that uses features only available as a preview in Java 19.  
-
   - `Kotlin` contains all the Kotlin code.
     It is setup as a `gradle` project, independent from the main `sbt` project.
     

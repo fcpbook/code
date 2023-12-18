@@ -1,7 +1,6 @@
 package chap22
 
-import java.util.concurrent.{ CountDownLatch, Executors }
-import scala.concurrent.duration.SECONDS
+import java.util.concurrent.CountDownLatch
 
 //noinspection DuplicatedCode
 object Section_3:

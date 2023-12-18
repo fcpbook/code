@@ -9,14 +9,19 @@ import scala.collection.immutable.{ ArraySeq, Iterable, Set }
 import scala.language.reflectiveCalls
 import scala.reflect.Selectable.reflectiveSelectable
 
+//noinspection ScalaUnusedSymbol
 class Section_5_Tests extends AnyFunSuite:
+   if solutionIsFound then ArraySeq(book3) // to keep imports
+
    test("LUB") {
       assertCompiles("demo1 = List(0)")
       assertTypeError("demo1 = List(None)")
       assertTypeError("demo1 = ArraySeq(0)")
       assertCompiles("demo2 = ArraySeq(0)")
       assertTypeError("demo2 = List(None)")
-      assertCompiles("demo3 = None")
+      assertCompiles("demo3 = List(0)")
+      assertCompiles("demo3 = 0.toString")
+      assertTypeError("demo3 = None")
       assertCompiles("demo4 = List(Some(0))")
       assertTypeError("demo4 = List(None)")
       assertCompiles("demo5 = List(None)")
@@ -24,7 +29,9 @@ class Section_5_Tests extends AnyFunSuite:
       assertCompiles("demo6 = 42")
       assertCompiles("demo7 = List(book3)")
       assertTypeError("demo7 = List(None)")
-      assertCompiles("demo8 = List(None)")
+      assertCompiles("demo8 = List(book3)")
+      assertCompiles("demo8 = List(0.toString)")
+      assertTypeError("demo8 = List(None)")
    }
 
    test("complex type") {

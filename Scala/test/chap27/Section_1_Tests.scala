@@ -4,7 +4,7 @@ import chap27.Section_1.*
 import chap27.Section_1J.*
 import org.scalatest.funsuite.AnyFunSuite
 import tinyscalautils.threads.Executors.global
-import tinyscalautils.threads.{ countDownAndWait, withThreadPoolAndWait }
+import tinyscalautils.threads.{countDownAndWait, withThreadPoolAndWait}
 
 import java.util.concurrent.CountDownLatch
 import scala.concurrent.Future

@@ -3,7 +3,7 @@ package chap25
 import mocks.Chap25.*
 import tinyscalautils.threads.Executors.global as exec
 
-import scala.concurrent.duration.{ DurationInt, MILLISECONDS }
+import scala.concurrent.duration.MILLISECONDS
 import scala.concurrent.{ ExecutionException, TimeoutException }
 
 object Section_3:

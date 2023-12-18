@@ -3,8 +3,7 @@ package chap26
 import chap26.Section_2.*
 import org.scalatest.funsuite.AnyFunSuite
 import tinyscalautils.test.threads.withMarkedThreads
-import tinyscalautils.text.{ PrintingMode, threadMode }
-import tinyscalautils.threads.newThread
+import tinyscalautils.text.PrintingMode
 import util.invokeAndWait
 
 import scala.concurrent.{ ExecutionContext, Future }

@@ -1,12 +1,12 @@
 package chap06
 
-import scala.annotation.tailrec
 import scala.collection.mutable
 
 object Section_1:
    object MutableLoop:
       import mocks.Chap06.MutableCollection
 
+      //noinspection ScalaWeakerAccess
       // processes one element and removes it
       def processOne[A](collection: MutableCollection[A]): Unit =
          mocks.Chap06.mutableProcessOne(collection)

@@ -11,6 +11,8 @@ import scala.collection.mutable
 import scala.jdk.CollectionConverters.MutableSetHasAsJava
 
 class Section_9_Tests extends AnyFunSuite:
+   Magazine("A", 0, 0) // to keep imports
+
    private def books        = mutable.Set(book)
    private def pubs         = mutable.Set[Publication](book)
    private def orderedBooks = mutable.Set(orderedBook1, orderedBook2)
@@ -34,6 +36,8 @@ class Section_9_Tests extends AnyFunSuite:
 
    test("help inference") {
       import mutable.Set
+      // noinspection ReferenceMustBePrefixed
+      Set.empty // to keep import
       assertCompiles("def f[A <: Publication](pubs: Set[A]) = pubs += pubs.head")
       assertTypeError("def f(pubs: Set[? <: Publication]) = pubs += pubs.head")
    }

@@ -2,9 +2,8 @@ package mocks
 
 import tinyscalautils.timing.sleep
 
-import java.net.{ Socket, URL }
+import java.net.{ Socket, URI, URL }
 import java.util.concurrent as juc
-import java.util.concurrent.ExecutorService
 import java.util.logging.Logger
 import scala.io.Source
 import scala.util.Using
@@ -33,6 +32,6 @@ object Chap21:
      "https://gutenberg.org/files/6130/6130-0.txt",
      "https://gutenberg.org/files/2000/2000-0.txt",
      "https://gutenberg.org/files/1012/1012-0.txt"
-   ).map(URL(_))
+   ).map(URI.create(_).toURL)
 
    def distinctWordsCount(url: URL): Int = chap21.Section_4.Demo1.distinctWordsCount(url)

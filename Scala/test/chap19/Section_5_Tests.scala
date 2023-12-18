@@ -7,8 +7,6 @@ import tinyscalautils.test.threads.syncForkJoin
 import tinyscalautils.threads.Executors.global
 import tinyscalautils.threads.availableProcessors
 
-import scala.jdk.CollectionConverters.IterableHasAsScala
-
 class Section_5_Tests extends AnyFunSuite:
    private def runTest[A](
        mkList: () => A,

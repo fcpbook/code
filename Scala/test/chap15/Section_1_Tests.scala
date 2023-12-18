@@ -7,6 +7,8 @@ import org.scalatest.funsuite.AnyFunSuite
 import tinyscalautils.text.printout
 
 class Section_1_Tests extends AnyFunSuite:
+   Book("A","B",0) // to keep imports
+   
    test("errors") {
       assertTypeError {
          """val books: List[Book] = List(book1, book2, 42)

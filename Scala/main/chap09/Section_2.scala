@@ -1,10 +1,8 @@
 package chap09
 
-import chap09.Section_1.temps
-import mocks.Chap09.{ Project, projects }
+import mocks.Chap09.Project
 
-import scala.annotation.tailrec
-
+//noinspection ScalaWeakerAccess
 object Section_2:
    def greaterThan(bound: Int)(x: Int): Boolean = x > bound
 

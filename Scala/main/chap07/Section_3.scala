@@ -1,6 +1,5 @@
 package chap07
 
-import chap05.Section_4.isEmpty
 import tinyscalautils.text.StringLetters.*
 
 import java.util.NoSuchElementException

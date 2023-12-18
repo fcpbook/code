@@ -1,6 +1,6 @@
 package chap12
 
-import java.io.{ ObjectInputStream, ObjectOutputStream }
+import java.io.ObjectOutputStream
 import java.net.InetAddress
 import java.nio.file.{ Files, Path }
 import scala.util.Using

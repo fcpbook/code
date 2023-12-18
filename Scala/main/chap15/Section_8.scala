@@ -1,12 +1,12 @@
 package chap15
 
-import chap15.Section_6.{ Book, Publication }
-import mocks.Chap15.{ book1, book2 }
+import chap15.Section_6.{Book, Publication}
+import mocks.Chap15.{book1, book2}
 
 import java.util.logging.Logger
-import scala.collection.mutable
 
 //noinspection TypeAnnotation
+//noinspection ScalaUnusedSymbol
 object Section_8:
    def printTitles(pubs: List[Publication]) = for pub <- pubs do println(pub.title)
 

@@ -12,7 +12,6 @@ import tinyscalautils.control.times
 import tinyscalautils.threads.{ Execute, withThreadPoolAndWait }
 import tinyscalautils.timing.timeIt
 
-import java.time.Duration
 import java.util.concurrent.CountDownLatch
 import scala.concurrent.duration.{ DurationInt, MILLISECONDS }
 import scala.concurrent.{ ExecutionContext, Future }

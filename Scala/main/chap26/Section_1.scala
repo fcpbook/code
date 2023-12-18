@@ -5,7 +5,6 @@ import mocks.Chap26.{ someConnection as connection, someRequest as request }
 import tinyscalautils.threads.Executors.global as exec
 
 import java.util.concurrent.{ ExecutorService, Executors }
-import scala.concurrent.Future
 
 object Section_1:
    // DON'T DO THIS!
