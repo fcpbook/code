@@ -7,6 +7,8 @@ title: Errata
 
   - **p. xxxiv:** In the third paragraph, "has been to used to" should be "has been used to".
 
+  - **p. 176:** The caption of Listing 12.2 should say "using" instead of "uisng".
+
   - **p. 219:** The `ListADT` class should either define _monomorphic_ lists:
     ```scala
     abstract class ListADT[A]:
