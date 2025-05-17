@@ -33,7 +33,9 @@ title: Errata
     ```scala
     def getAll: List[String] = synchronized(ArrayList(contents))
     ```
-  
+
+  - **p. 308:** In the third paragraph, "let in run" should be "let it run".
+    
   - **p. 353:** Although harmless, the test `|| !queue.isEmpty` inside `writeTask` is unnecessary and can be removed.
   
   - **p. 418:** The `{runner-seq}` line in the `Runner` listing is leftover LaTeX due to last minute changes; it is not part of the code and should be ignored.
