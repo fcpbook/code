@@ -7,6 +7,10 @@ title: Errata
 
   - **p. xxxiv:** In the third paragraph, "has been to used to" should be "has been used to".
 
+  - **p. 50:** In the footnote, "is other" should be "in other".
+
+  - **p. 68:** In the second paragraph from the bottom, "as a given point" should be "at a given point".
+
   - **p. 176:** The caption of Listing 12.2 should say "using" instead of "uisng".
 
   - **p. 219:** The `ListADT` class should either define _monomorphic_ lists:
